@@ -1,0 +1,39 @@
+.ui-btn {
+    align-items: center;
+    border-radius: 1rem;
+    color: #373842;
+    display: flex;
+    font-size: 1.125rem;
+    height: 48px;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding-bottom: .375rem;
+    padding-top: .375rem
+}
+
+.ui-btn-default {
+    border-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: #fff;
+    border-color: rgb(255 255 255/var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.ui-btn-accent {
+    background: #6a9dca;
+    --tw-text-opacity: 1;
+    color: #fff;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    transition-duration: 75ms;
+    transition-timing-function: cubic-bezier(.4, 0, 1, 1)
+}
+
+.ui-btn-accent:hover {
+    background: #87adcf
+}
+
+.ui-btn:disabled {
+    background: #becfcd
+}
